@@ -1,6 +1,7 @@
 package mirea2;
 
-public class b_02_stack {
+public class b_02_stack { // 함수 테스트 용
+	// 근의 공식도 해보면 좋을듯
 
 	public static void main(String[] args) {
 		System.out.println("프로그램 시작 첫 함수 호출");
@@ -8,7 +9,7 @@ public class b_02_stack {
 		staticMethod1(); // 메소드 1을 2번 호출
 		System.out.println("메인으로 복귀");
 		System.out.println(func(3));
-		System.out.println(func2(3,1,2,3));
+		System.out.println(func(3,1,2,3)); // a b c x
 		System.out.println("종료합니다");
 		
 
@@ -30,7 +31,7 @@ public class b_02_stack {
 	}
 	
 	// ax^2 + bx +c
-	public static int func2(int x, int a, int b, int c) {
+	public static int func( int a, int b, int c, int x) {
 		int ret = (int) (a*Math.pow(x, 2) + (b * x) + c);
 		return ret;
 	}
