@@ -1,5 +1,5 @@
 package mirea2;
-
+ // 처음부터 뭔가 잘못되었다
 import java.util.Scanner;
 
 public class b_practice알려준거 {

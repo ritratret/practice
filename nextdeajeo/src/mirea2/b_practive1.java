@@ -17,6 +17,7 @@ public class b_practive1 {
 		String[] judge = { "이겼습니다", "졌습니다", "비겼습니다" };
 	}
 
+	//return으로 되받아야 함
 	public static void se(int person,int com) {
 		
 		person = 0;
@@ -57,8 +58,6 @@ public class b_practive1 {
 				result=0;
 				System.out.println("이겼습니다");
 			} 
-			
-			return result;
 			
 			System.out.println("총 게임 횟수는=" + count + "전:" + win + "승:" + lose + "패 입니다");
 		} 
