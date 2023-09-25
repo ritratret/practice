@@ -8,7 +8,7 @@ interface MyInterface {
 	//interface가 있으니 astract없어도 된다
 }
 
-class MuInterfaceImp1 implements MyInterface { 
+class MyInterfaceImp1 implements MyInterface { 
 	// implements (구현한다) <--interface (다중상속이 가능)
 	public void sayHello() {
 		System.out.println(MyInterface.hello);
