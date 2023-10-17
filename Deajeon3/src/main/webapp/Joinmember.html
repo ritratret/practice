@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<div>
+		<p>
+			<center>
+				<form action="AccountServlet">
+					<table width="40%" border="1">
+						<caption>
+							<h3>회원 가입</h3>
+						</caption>
+						<tr>
+							<th width="30%">이름</th>
+							<td width="70%" align="center">
+								<input type="text" name="account" size="30%">
+							</td>
+						</tr>
+						<tr>
+							<th width="30%">아이디</th>
+							<td width="70%" align="center">
+								<input type="text" name="id" size="30%">
+							</td>
+						</tr>
+						<tr>
+							<th width="30%">비밀번호</th>
+							<td width="70%" align="center">
+								<input type="text" name="password" size="30%">
+							</td>
+						</tr>
+
+					</table>
+					<br />
+					<table width="40%">
+						<label for="remember-check">
+							<input type="checkbox" id="remember-check"> 아이디 저장하기
+						</label>
+						<tr>
+							<td align="right">
+								<input type="hidden" id="action" name="action" value="memberinsert">
+								<input type="submit" value="회원가입" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			</center>
+		</p>
+	</div>
+
+
+</body>
+
+</html>
